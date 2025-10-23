@@ -12,13 +12,9 @@ def loginsView():
             credentials.append(row)
  
 
-    while True:
+    while userCount < len(credentials):
         if len(credentials[userCount]) == 2:
             userCount += 1
-        elif userCount == len(credentials):
-            break
-        else:
-            break
 
     print(f"\n{userCount} Users Listed.\n")
 

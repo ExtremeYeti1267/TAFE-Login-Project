@@ -22,7 +22,7 @@ while True:
     elif userInput == 'LOGIN' and loggedOn == False:
         loggedOn = login()
 
-    elif userInput == 'LIST USERS' and loggedOn == True or 'LISTUSERS' and loggedOn == True:
+    elif userInput == 'LIST USERS' and loggedOn == True or userInput == 'LISTUSERS' and loggedOn == True:
         loginsView()
 
     elif userInput == 'LOGOFF' and loggedOn == True:
