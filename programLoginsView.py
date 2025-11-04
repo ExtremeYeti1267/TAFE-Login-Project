@@ -25,7 +25,7 @@ def loginsView():
             userCount += 1
 
     #   Shows the user the number of listed users.
-    print(f"\n{userCount} Users Listed.\n")
+    print(f"\nTotal Users = {userCount}\n")
 
     #   Displays all the users and passwords stored in the "credentials" list to the user.
     for each in credentials:
