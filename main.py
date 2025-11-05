@@ -47,6 +47,7 @@ while True:
 
     elif userInput == 'LOGOFF' and loggedOn == True:
         loggedOn = False
+        print("\nSuccessfully logged off")
 
     elif userInput == 'LOGOFF' and loggedOn == False:
         print('\nNot currently logged in.  Type \"exit\" to quit')
